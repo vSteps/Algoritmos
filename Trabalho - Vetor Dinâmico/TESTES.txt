@@ -1,0 +1,20 @@
+cd C:\Users\Usuário\OneDrive - IFRN\Desktop\Algoritmos\Trabalho - Vetor Dinâmico>
+
+g++ -Wall -o test-removeat-linked-list-01 test-removeat-linked-list-01.cpp
+
+ Get-Content tests/remove_at/e1.txt | .\test-removeat-linked-list-01
+
+g++ -Wall -o test-removeat-array-list-01 test-removeat-array-list-01.cpp
+
+ Get-Content tests/remove_at/e1.txt | .\test-removeat-array-list-01
+
+adicionar
+
+  g++ -Wall -o test-pushfront-linked-list-01 test-pushfront-linked-list-01.cpp 
+
+ Get-Content tests/push/e1.txt | .\test-pushfront-linked-list-01
+
+
+  g++ -Wall -o test-pushfront-array-list-01 test-pushfront-array-list-01.cpp 
+
+ Get-Content tests/push/e1.txt | .\test-pushfront-array-list-01
